@@ -1,0 +1,809 @@
+body{
+	padding:0;
+	margin : 0;
+}
+.header{
+	width : 100%;
+	height: 150px;
+	
+	padding : 0 ! important;
+}
+.head{
+	
+	height:150px;
+	width:100%;
+	margin:0 ! important;
+}
+
+.container-fluid .row{
+	
+	padding :0;
+	width:100%;
+
+
+	
+}
+.container-fluid{
+	
+	
+	text-align: center;
+
+
+}
+.logo{
+	height: 150px;
+	width : 100%;
+	
+}
+.social{
+	height: 150px;
+	width : 100%;
+	background-color: #510;
+
+}
+.logoImg{
+
+	float: left;
+	margin :20px auto;
+}
+/***************************   Navigation Style ******************************/
+.navigation{
+	padding : 0 ! important;
+
+}
+.nav{
+	max-width: 100%;
+	width :100%;
+	height: 40px;
+	background-color:#333;
+	margin: 0 !important;
+}
+.nav .navCol ul{
+	list-style: none;
+	max-width: 100%;
+	width :100%;
+	background-color: #333;
+
+}
+.nav .navCol ul li{
+	float:left;
+	 padding-top:10px;
+	text-align: center;
+
+}
+.nav .navCol ul li a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: white;
+	border-right: 1px solid #777;
+	border-left: 1px solid #555;
+	font-size: 15px;
+	padding:11px 12px 11px 12px;
+
+}
+/*********************  search styles *****************/
+.search{
+	float: right;
+	background: #504;
+	height:40px;
+	width :100%;
+}
+.firstRow{
+	
+	width:93%;
+	height: 2200px;
+	
+	padding:0 !important;
+	margin: 0 auto;
+
+
+
+}
+@media only screen and (max-width: 750px){
+	.firstRow{
+	
+	width:100%;
+	height: 1000px;
+	
+	padding:0 !important;
+	margin: 0 auto;
+
+
+}
+}
+.row1{
+	width:100%;
+	
+	height:860px;
+	
+	margin: 0 !important;
+	padding:0 ! important;
+}
+.projectsDomain{
+	
+	height: 790px;
+	width:100%;
+	padding:0 15px !important;
+	margin-top: 5% !important;
+
+
+
+}
+/******************  start sliderrow  **********************/
+.sliderrow{
+	height: 70px;
+	width: 100%;
+	background-color:#333;
+	margin: 0 !important;
+	display: flex;
+	padding: 10px;
+}
+.p1 , .p2 ,.p3{
+
+	height: 50px;
+	width:160px;
+	background: #eee;
+	border-radius: 5px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+@media only screen and(max-width:750px){
+	.p1 , .p2 ,.p3{
+
+	height: 30px;
+	width:80px;
+	background: #eee;
+	border-radius: 5px;
+	margin: 0 auto;
+
+}
+}
+.sliderRowTopics{
+	display:inline-block;
+	height:30px;width:120px;
+	font-size:17px;
+	line-height:50px;
+	text-shadow:2px 2px 2px #eee;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+
+}
+.sliderRowTopics a{
+   text-decoration: none;
+   color:inherit;
+}
+.sliderRowTopics a:hover{
+   text-decoration: none;
+   color:#000;
+  
+}
+.sliderRowTopics:active{
+	text-decoration: none;
+	color: #333;
+}
+/******************  endsliderrow  **********************/
+/*******************  sider *****************************/
+.mission{
+	
+	height: 600px;
+	width:100%;
+	padding :0 !important;
+    margin-top: 5% !important;
+}
+.mission-first{
+	
+	border:1px solid #ccc;
+	height : 400px;
+	width :100%;
+	padding:0 !important;
+	margin:0 !important;
+	text-align: center;
+
+}
+.mission-first .p{
+	text-align: center;
+	display:inline-block;
+	height:40px;
+	margin-top: 1px;
+	width:100%;
+	font-size:22px;
+	text-transform: uppercase;
+	border-bottom:1px solid #ccc;
+	line-height:40px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #990000;
+}
+.mission-first p{
+	text-align: center;
+	display:inline-block;
+	margin-top: 15px;
+	width:100%;
+	font-size:14px;
+	
+	line-height:20px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #990000;
+}
+.mission-first img{
+	height: auto;
+	width :95%;
+	margin: 0 auto;
+
+}
+.technologies{
+	border:1px solid #ccc;
+	margin-top: 8% !important;
+	height: 360px;
+	width:100%;
+	padding: 0 !important;
+	text-align: center;
+}
+.techTopic{
+	text-align: center;
+	display:inline-block;
+	height:40px;
+	margin-top: 1px;
+	width:100%;
+	font-size:22px;
+	border-bottom:1px solid #ccc;
+	line-height:40px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #336699;
+	text-transform: uppercase;
+
+}
+/***********************  end of sider  ************************/
+.projTop{
+	height: 40px;
+	background-color: #cc3300;
+	width :100%;
+	margin:0 !important;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	border-bottom: none;
+	text-align: center;
+
+}
+.projTop p{
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 22px;
+	text-transform: uppercase;
+	line-height: 40px;
+	text-shadow: 1px 1px 1px #000;
+}
+.proj1{
+     height: 480px;
+     width: 100%;
+     
+     margin: 0 !important;
+      border: 1px solid #ccc;
+      border-top:none;
+     
+
+     
+}
+.proj2{
+	height: 250px;
+     width: 100%;
+    padding-top: 15px;
+     margin: 0 !important;
+     display: flex;
+     margin-top: 25px !important;
+     border: 1px solid #ccc;
+     text-align: center;
+
+}
+/****************** firsr row boxes *************/
+.projBox1{
+	height: 200px;
+	width:100%;
+	
+	margin: 0px !important;
+	margin-top: 15px !important;
+	display: flex;
+	text-align: center;
+
+}
+.projBox2{
+	height: 240px;
+	width:100%;
+	
+	text-align: center;
+	margin: 0 !important;
+	padding-top:14px; 
+	display: flex;
+	margin-top: 15px !important;
+	
+}
+.domain1{
+	width:200px;
+	height: 210px;
+	background: #fff;
+	margin: 5px auto;
+	display: inline;
+	border :1px solid #eee;
+	padding-bottom: 0;
+}
+.domain2 {
+	width:200px;
+	height: 210px;
+	background: #fff;
+	margin: 5px auto;
+	border :1px solid #eee;
+	display: inline;
+
+}
+.domain3 {
+	width:200px;
+	height: 210px;
+	background: #fff;
+	margin: 5px auto;
+	border :1px solid #eee;
+	
+	display: inline;
+
+}
+.btom{
+	border: none;
+	display: inline-block;
+	width: 100%;
+	height: 22px;
+	color: #fff;
+	text-decoration: none;
+	background-color: #0099cc;
+	margin: 0 auto;
+
+}
+ .domain1 a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.domain2 a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.domain3 a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.boxTopic{
+	 display:inline-block;
+	 border-bottom:1px solid #ccc;
+	 height:30px;
+	 width:100%;
+	 font-size:18px;
+	 font-weight:500;
+	 margin:0;"
+}
+.boxImag{
+	height: 90px;
+	width: 90px;
+
+}
+/******************** proj2 start *************/
+.proj2 .domain3 .boxTopic{
+	background-color: #336633;
+	color: white;
+}
+.proj2 .domain2 .boxTopic{
+	background-color: #cc3300;
+	color: white;
+}
+.proj2 .domain1 .boxTopic{
+	background-color: #336699;
+	color: white;
+}
+/******************* end proj2 *****************/
+/***************** start publication styles **************/
+.publication{
+	height: auto;
+	width:100%;
+	padding :0;
+	margin: 0 !important;
+	margin-top: 5% !important;
+
+}
+.image{
+	
+	padding : 0 !important;
+	padding-left: 15px !important;
+	overflow: hidden;
+	height: auto;
+	
+	width: 100%;
+}
+.image img{
+	height: auto;
+	
+	width: 100%;
+	max-width: 100%;
+	
+}
+.transparent{
+	width:100%;
+	height:350px;
+	background: #222;
+	opacity: .5;
+	position: absolute;
+	top:0;
+}
+
+@media only screen and (max-width: 750px){
+
+	.transparent{
+	/*width:100%;
+	height:200px;
+	background: #222;
+	opacity: .5;
+	position: absolute;
+	top:0;*/
+}
+}
+.paperContent{
+	position: absolute;
+	width: 95%;
+	display: block;
+	max-width: 100%;
+	/*border:1px solid #200;*/
+	top: 50%;
+	height: 95%;
+	
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 999;
+}
+ .paperImg{
+	width:90px;
+	height: auto;
+	margin: 0 auto;
+	
+	margin-top: 2%;
+
+}
+.paperImg img{
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+}
+@media only screen and (max-width: 450px){
+	.paperImg{
+		width: 30px;
+		height: auto;
+		
+	}
+}
+.po{
+	 color:white;
+	 font-size:25px;
+	 font-weight:bold;
+	 text-align:center;
+	margin-bottom: 3%;
+}
+@media only screen and (max-width: 450px){
+	.po{
+	
+	color:white;
+	 font-size:10px;
+	 font-weight:bold;
+	 text-align:center;
+	 margin-top: 0;
+	 padding-bottom: 0;
+	 margin-bottom: 0;
+}
+}
+@media only screen and (max-width: 900px){
+	
+	.po{
+	
+	color:white;
+	 font-size:15px;
+	 font-weight:bold;
+	 text-align:center;
+	 margin-top: 0;
+	 padding-bottom: 0;
+	 margin-bottom: 0;
+    }
+} 
+
+
+.option{
+	z-index: 999;
+	width:50%;
+	height: 30px;
+	
+	margin: 0 auto;
+	margin-top: 7%;
+	text-align: center;
+}
+.option p{
+	display: inline-block;
+	height: 30px;
+	width :35%;
+	line-height: 30px;
+	font-weight: 500;
+	font-size: 20px;
+	color: white;
+	margin-left:2%;
+	
+	border:1px solid #fff;
+
+}
+@media only screen and (max-width: 450px){
+	.option{
+	
+	z-index: 999;
+	width:70%;
+	height: 10px;
+	
+	margin: 0 auto;
+	
+	text-align: center;
+}
+.option p{
+	
+	display: inline-block;
+	height: 10px;
+	width :20%;
+	line-height: 10px;
+	
+	font-size: 10px;
+	color: white;
+	margin-left:2%;
+	
+	border:1px solid #fff;
+}
+
+
+}
+/*****************end  publication styles **************/
+/********************  start projectsForm **************/
+ .projectsForm{
+ 	width: 100%;
+ 	height: 320px;
+ 	padding:  !important;
+    padding-left: 15px !important;
+ 	
+ 	margin: 0 ! important;
+ 	margin-top: 2% !important;
+ 	text-align: center;
+
+ }
+ .formContent{
+ 	width: 100%;
+ 	height: 310px;
+
+ 	
+ 	padding:0 !important;
+ 	margin: 0 auto !important;
+ 	margin-top: 2%;
+
+ 	
+ 	
+ }
+ .researches{
+ 	
+ 	height: 300px;
+ 	padding:2% 0;
+ 	
+ 	
+ }
+ .form{
+ 	
+ 	height: 280px;
+ 	padding:2% 0;
+ 	
+
+ }
+ .researches-inner{
+ 	/*border:1px solid #ccc;*/
+ 	width:100%;
+ 	padding :0;
+ 	height: 280px;
+
+ }
+ .form-inner{
+ 	border:3px solid #990000;
+ 	width:100%;
+ 	height: 280px;
+ 	padding :0 !important;
+ 	box-sizing: border-box;
+ 	overflow: hidden;
+ }
+ .research-option{
+ 	width: 100%;
+ 	height: 40px;
+ 	
+ 	
+ }
+ .research-header{
+    
+ 	width: 100%
+ 	height: 18px;
+ 	border:1px solid #ccc;
+ 	padding: 0;
+ }
+ .research-header p{
+ 	display: inline-block;
+ 	width: 75%
+ 	height: 20px;
+ 	
+ 	font-size: 20px;
+ 	line-height: 35px;
+ 	margin: 0;
+ 	 font-weight: bold;
+ 	color: #000066;
+ 	text-transform: uppercase;
+ 	
+
+ }
+ .research-option p{
+ 	display: inline-block;
+ 	width: 25%;
+ 	height: 30px;
+ 	line-height: 30px;
+ 	border:1px solid #ccc;
+ 	margin:2%; 
+ 	color: white;
+ 	background-color:#336633;
+ }
+ .research-content{
+ 	width: 100%;
+ 	height: 200px;
+ 	margin-top: 5px;
+ 	border:1px solid #ccc;
+
+ }
+ .form-innerImg{
+ 	padding :0 !important;
+ 	
+ 	margin: 0 !important;
+ 	height: 278px;
+
+ 	box-sizing: border-box;
+ }
+ .form-innerImg img{
+ 	width:100%;
+ 	max-width: 100%;
+ 	
+ 	max-height: 100%;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+ .overimg{
+ 	position:absolute;
+ 	height: 45px;
+ 	width:100%;
+ 	background-color: #333;
+ 	bottom:2px;
+ 	opacity: .7;
+ }
+ .imgtext p{
+ 	display: inline-block;
+ 	position: absolute;
+ 	bottom: 2px;
+ 	width:100%;
+ 	height:40px;
+ 	line-height: 40px;
+ 	font-size: 20px;
+ 	font-weight:500;
+ 	text-transform: capitalize;
+ 	text-align: center;
+ 	left: 1px;
+ 	color:white;
+ }
+.forApp-header{
+	display: inline-block;
+	height: 30px;
+	width:98%;
+	text-align : center;
+	font-size: 18px;
+	font-weight:500;
+	line-height: 30px;
+	text-transform: capitalize;
+	background-color: #3d566d;
+	color: white;
+	margin:2px;
+	border-radius: 0px;
+}
+.form-innerForm{
+	padding:0 !important;
+}
+.formlab{
+	display: inline-block;
+	width: 20%;
+	text-align: left;
+	text-transform: capitalize;
+	color: #405c60;
+	font-family: "Times New Roman", Times, serif;
+	font-size:15px;
+	font-weight: normal;
+	
+}
+form input[type=text]{
+	width:75%;
+    border:1px solid #888;
+    border-radius: 2px;
+    padding: 3px 0 3px 35px;
+    box-shadow:inset 0 0 5px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    max-width: 100%;
+	margin: 6px auto;
+	margin-right: 2px;
+}
+textarea{
+     width:75%;
+    border:1px solid #888;
+    border-radius: 2px;
+    padding: 3px 0 3px 5px;
+    box-shadow:inset 0 0 5px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    max-width: 100%;
+	margin: 6px auto;
+	margin-right: 2px;
+     vertical-align: middle;
+    
+
+}
+.formlabtext{
+	width:20%;
+	text-align: left;
+	text-transform: capitalize;
+	vertical-align: middle;
+	font-family: "Times New Roman", Times, serif;
+	font-size:15px;
+	font-weight: normal;
+	color: #405c60;
+
+}
+.btForm{
+	   display: inline-block;
+	   width:98%;
+	   background-color: #3d566d;
+      	border:1px solid #666;
+        height: 28px;
+        color: #fff;
+        font-size: 18px;
+        font-family: "Times New Roman", Times, serif;
+        margin-top: 4px;
+        border-radius: 5px;
+        text-transform: capitalize;
+}
+/********************  end of  projectsForm **************/
+/*******************   start of footer ********************/
+.footer{
+	
+	
+
+	width:100%;
+	height: 400px;
+	margin: 0 !important;
+	margin-top: 4% !important;
+
+    
+}
+.footerContent{
+	background-color: #333;
+	height: 400px;
+	padding: 0 !important;
+
+}
+/****************** end of footer ************************/
+.img1 {
+	transition: transform .5s;
+	transform: scale(.1);	
+}
+.img2 {
+    transition: transform .5s;
+	transform: scale(.8);	
+}
+

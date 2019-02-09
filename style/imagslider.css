@@ -1,0 +1,264 @@
+.s1{
+      height: auto;
+      
+      
+      float: left;
+      position: relative;
+
+    }
+    .s2{
+      height: auto;
+      
+      
+      float: left;
+      position: relative;
+    }
+    .s3{
+      height: auto;
+      
+      
+      float: left;
+      position: relative;
+    }
+    .s4{
+      height: auto;
+      
+      
+      float: left;
+      position: relative;
+    }
+    body{
+      padding:0;
+      margin: 0;
+    }
+    *{
+      padding:0;
+      margin:0;
+
+    }
+    #container{
+      position: relative;
+      width: 100%;
+      
+      height:auto;
+      
+      background: #555;
+
+
+    }
+    #sliderCo{
+      width: 100%;
+      height: auto;
+      margin : auto;
+      position: relative;
+      overflow: hidden;
+      
+    }
+    .thumb{
+      
+      position: absolute;
+      top: 90%;
+      left:44%;
+
+    }
+    .cycle-pager{
+      height: 8px;
+      width:8px;
+      background:#fff;
+      margin-left: 8px;
+      float: left;
+      border-radius:5px;
+      border-color: #555;
+      border:.5px solid #555;
+      cursor: pointer;
+    }
+        .sliderImages{
+          width: 100%;
+          max-width : 100%;
+          height: auto;
+         opacity: .6;
+          
+        } 
+        .mainContainer{
+          width: 100%;
+          height:auto;
+
+        } 
+        .slide1{
+          height: auto;
+          background: #000;
+        }
+        .cycle-prev{
+              
+              /*margin-left:2%;*/
+              color:#333;
+              font-weight:bold;
+              font-size:40px;
+              /*height: 50px;
+                width: 25px;*/
+              z-index: 500;
+              position: absolute;
+              top:40%;
+              left: 0;
+              width: 30px;
+              height: 70px;
+              cursor: pointer;
+              
+
+
+            }
+    .cycle-next{
+                            /*margin-right:2%;*/
+                           color:#333;
+                           font-weight:bold;
+                           font-size:40px;
+                            z-index: 500;
+                           position: absolute;
+                           top:40%;
+                           right: 0;
+                           cursor: pointer;
+
+           
+                              }
+                   .move{
+                    opacity: .7;
+                   } 
+                   #sliderCo:hover .move{
+                    opacity: 1;
+
+    } 
+                .act{
+                  color :#000;
+                }
+
+                /***********   conetnt*****************/
+                .content{
+        width:1200px;
+        height: 280px;
+        /*border : 1px solid #000;*/
+        position: absolute;
+        top:20%;
+        left: 50%;
+        margin-top: 4%;
+        display: flex;
+        display: -webkit-flex;
+                -webkit-transform:translate(-50%,-20%);
+        max-width:100%;
+        transform: translate(-50%,-20%);
+        
+        justify-content: space-between;
+       }
+                   #con1 ,#con2 ,#con3{
+              
+              /*border:1px solid #081;*/
+              margin: 0 auto;
+              margin-top: 8%;
+              max-width: 100%;
+              border-radius: 10px;
+                overflow: hidden;
+
+
+            } 
+            #conIn1 , #conIn2 , #conIn3{
+              width: 220px;
+              height: 30px;
+              display: flex;
+              position: relative;
+              overflow: hidden;
+              margin: auto;
+              /*border:1px solid #000;*/
+              text-align: center;
+               opacity:1;
+              max-width: 100%;
+              
+
+            }
+            .img1{
+              width: 100%;
+              height: auto;
+              border-radius:15px;
+              max-width: 100%;
+              overflow: auto;
+              -moz-box-shadow:10px 10px 5px #ccc;;
+
+
+            }
+
+      
+       #conIn2{
+            font-family: Droid Sans Mono;
+            font-size:20px;
+            font-style: normal;
+           display: inline-block;
+            font-weight: 500;
+            line-height: 30px;
+            color:white;
+            }     
+   #conIn3 p{
+            font-family: Droid Sans Mono;
+            font-size:20px;
+            font-style: normal;
+           display: inline-block;
+            font-weight: 500;
+            line-height: 30px;
+            color:white;
+            }
+  .imgCon{
+              background-color: ;
+              border-radius: 15px;
+              width: 150px;
+              height: 150px;
+              margin: 0 auto;
+              /*border:1px solid #051;*/
+              max-width: 100%;
+              margin-bottom: 4px;
+
+            }
+  .conInP1{
+            display:inline-block;
+            font-size:20px;
+            margin:0 auto;
+            width:80px;
+            background-color:#cc3300;
+            height:30px;
+            line-height:30px;
+            text-shadow: 2px 2px 2px #000;
+            text-transform: capitalize;
+            font-family: Droid Sans Mono;
+            font-style: normal;
+            font-weight: 500;
+            color:white;
+            position: absolute;
+            left: -90px;
+            transition: 1s;
+           }
+  .conInP2{
+            display:inline-block;
+            height:30px;
+            width:140px;
+            color: #fff;
+            text-transform: capitalize;
+            font-weight: 550;
+            background-color:#333;
+            margin:0 auto;
+            font-size:20px;
+            line-height:30px;
+            text-shadow: 2px 2px 2px #000;
+            font-weight: bold;
+            font-family: Droid Sans Mono;
+            font-style: normal;
+            font-weight: 500;
+            color:white;
+            position: absolute;
+            right: -180px;
+            transition: 1s;
+           }
+.content-title {
+  font-size: 30px;
+    font-weight: bold;
+    color: #f9ff00;
+}
+.content2{
+  position: absolute;
+  top: 50px;
+}
