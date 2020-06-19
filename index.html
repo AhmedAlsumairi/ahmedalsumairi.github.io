@@ -4,90 +4,435 @@
 	<title>realTimeProjects</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style/styles.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/bootstrap.min.css">
+  
 	<link rel="stylesheet" type="text/css" href="style/imagslider.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="javascript/jquery-3.1.0.js"></script>
 </head>
-<body onload="foo()">
-<!-- <header class="header container-fluid">
-	<div class="head row ">
-		<div class="logo col-md-8 col-sm-8 col-xs-8 "><img col-md-12 class="logoImg" src="images/lastLogo.png" height="100px" width="220px" /></div>
-		<div class="social col-md-4 col-sm-4 col-xs-4">test</div>
-	</div>
-</header> -->
-<nav class="navigation container-fluid">
-   
-    <div class="nav row">
-        <div class="navCol col-md-8  col-sm-8 col-xs-9">
-         <ul > 
-             <li><a href="#">Home</a></li>
-             <li><a href="#">technologies</a></li>
-             <li><a href="#">projects</a></li>
-             <li><a href="#">contact </a></li>
-             <li><a href="#">about US</a></li>
-         </ul>
-         </div>
-         <div class="search col-md-4 col-sm-4 col-xs-3">
-         </div>
-    </div>
-</nav>
-
-
-<div class="mainContainer"><!-- slider container -->
-  <div id="sliderCo">
-  <span class="cycle-next move" ><img src="images/narrow5.png" style="border-radius:4px" ></span>
-                <!-- <span class="cycle-prev">&#9001;</span> -->
-
-                <span class="cycle-prev move"><img src="images/narrow4.png" style="border-radius:4px"  ></span>
-    <div id="container">
-      <div class="slide1 s1"><img class="sliderImages" src="images/11.jpg">
-                 <div id="content" class="content">
-         
-         	  <div id="con1">
-
-         	          <div  class="imgCon"><img id="rp" class="img1" src="images/162.png" />
-         	                    
-         	          </div>
-         	          <div id="conIn1">
-                            <p class="conInP1">security   </p>
-                            <p class="conInP2" > projects</p></div>
-         	   </div>
-         	  <div id="con2">
-         	         <div class="imgCon"><img id="rp1" class="img1"  src="images/163.png" />
-         	         </div>
-         	         <div id="conIn2"><p class="conInP1">articicial </p><p class="conInP2">intelligence</p></div>
-         	    </div>
-         	  <div id="con3"><div class="imgCon"><img id="rp2" class="img1" src="images/152.png" />
-         	       </div>
-         	       <div id="conIn3"><p class="conInP1">data   </p><p class="conInP2" > mining </p></div>
-         	    </div>   
-
+<body>
+<div class="header-main row"> 
+      <div  class="logo-header col-md-4">
+           <p class="logo-contentP1">Ahmed</p>
+           <p class="logo-contentP2">Alsumairi </p>
+           <div class="menuIconsBtn"> 
+            <i class="material-icons open">menu</i>
+            <i id="bti-close" class="material-icons btn-close">clear</i>
+           </div>
+      </div>
+      <div class="navCol col-md-8  col-sm-12 col-xs-12">
+            <ul > 
+               <li><a href="#areas-scop">Home</a></li>
+               <li><a href="#">technologies</a></li>
+               <li><a href="#">projects</a></li>
+               <li><a href="#">contact </a></li>
+               <li><a href="#">about US</a></li>
+            </ul>
+           <div class="social-icons-mob">
+               <a href="index.html#areas-scop"><p class="iconCoverP"><i class="fa fa-facebook fa-fw"></i></p></a>
+               <a href="#"><p class="iconCoverP"><i class="fa fa-twitter fa-fw"></i></p></a>
+               <a href="#"><p class="iconCoverP"><i class="fa fa-youtube"></i></p></a>
+               <a href="#"><p class="iconCoverP"><i class="fa fa-instagram fa-fw"></i></p></a>
+               <a href="#"><p class="iconCoverP"><i class="fa fa-linkedin"></i></p></a>
+               <a href="#"><p class="iconCoverP"><i class="fa fa-google-plus"></i></p></a>
+           </div>
+            <div class="nav-footer">
+               <ul>
+                 <li><a href="">privacy</a></li>
+                 <li><a href="">policy</a></li>
+                 <li><a href="">login</a></li>
+               </ul>
+               <p class="websit-copywrite">Ahmed Alsumairi@copywtite 2020</p>
           </div>
       </div>
-      <div class="slide1 s2">
-                <img class="sliderImages" src="images/22.jpg">
-                <div class="content2">
-                  <p class="content-title">Learn Git and GitHub without</p>
-                  <p>But in an era of skyrocketing tuition fees combined with widespread economic austerity, millions of students will find themselves</p>
-                </div>
+            
 
+</div>
+<div class="clearfix"></div>
+
+
+<div class="row">
+  <div class="slider col-md-12">
+    <div class="slider-container">
+          <div class="imag-slider">
+            <img class="slider-imag" src="images/slider.jpg" />
+          </div>
+          <div class="slider-content">
+            <div class="slider-title">
+              <p>through unique artist driven patterns and a social mission to make</p>
+              <p>through unique artist driven patterns and a social mission to make through unique artist driven patterns </p>
+            </div>
+            <div class="resume-button">
+              <button class="resume-click">Show resume </button>
+            </div>
+          </div>
+    </div>
+  </div>
+</div>
+<div class="row personal-infoRow">
+  <div class="personal-info col-md-8 col-sm-12 col-xs-12">
+    <div class="row">
+      <div class="personal-photoC col-md-3 col-sm-3 col-xs-12">
+        <img class="personal-photo" src="images/personal-photo4.jpg">
+          <div class="buttom-con">
+            <button class="resume-buttom">get resume</button>
+          </div>  
       </div>
-      <div class="slide1 s3"><img class="sliderImages" src="images/33.jpg"></div>
-      <div class="slide1 s4"><img class="sliderImages" src="images/44.jpg"></div>
-      
+      <div class="description-infop col-md-9 col-sm-9 col-xs-12 ">
+        <p class="name-info"><span>hi i'm</span> ahmed alsumairi</p>
+        <p class="job-info">full stack web developer</p>
+        <p class="decs-info">Instead of worrying about what America will turn into as a result of Trump's presidency, perhaps you should focus on how it is affecting you all Instead of worrying about what America will turn into as a result of Trump's presidency, perhaps you should focus on how it is affecting you all.</p>
+      </div>
     </div>
-         <div class=thumb>
-           <div class="cycle-pager tu1" value="1">
-           </div>
-           <div class="cycle-pager tu2" value="2"></div>
-           <div class="cycle-pager tu3" value="3"></div>
-           <div class="cycle-pager tu4" value="4"></div>
+    
+  </div>
+  <div class="personal-contact col-md-4 col-sm-12 col-xs-12">
+      <div class="personal-container">
+          <div class="contact-header">
+            <p>about me</p>
+          </div>
+          <div class="contact-content">
+            <p><span>name</span>:<span>ahmed alsumairi</span></p>
+            <p><span>email</span>:<span>ahmedalsumairi9090@gmail.com</span></p>
+            <p><span>website</span>:<span>ahmedalsumairi.github.io</span></p>
+            <p><span>linkedIn</span>:<span>www.linkedin.com/in/ahmed-alsumairi</span></p>
+            <p><span>github</span>:<span>github.com/AhmedAlsumairi?tab=repositories</span></p>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<div class="areas-scopContainer" id="areas-scop">
+  <div class="areas-header">
+    <p>main areas</p>
+    <p>Instead Of Worrying About What America Will Turn Into As A Result Of Trump's Presidency, Perhaps You Should Focus On How It Is Affecting You All.</p>
+  </div>
+    <div class="scop-outer">
+        <div class="scop-container row">
+          <div class="scop-content col-md-3 col-sm-6">
+            <div class="scop-inner">
+              <div class="icon-outer">
+                <span class="material-icons">code</span>
+              </div>
+              <p class="scop-contentHeader">web development</p>
+              <p class="scop-contentDesc">Instead of worrying about what America will turn into as a result of Trump's presidency, perhaps you should focus on how it is affecting you all </p>
+            </div> 
+          </div>
+           <div class="scop-content col-md-3 col-sm-6 ">
+            <div class="scop-inner">
+              <div class="icon-outer">
+                 <i class='fas fa-magic '></i>
+              </div>
+              <p class="scop-contentHeader">web development</p>
+              <p class="scop-contentDesc">Instead of worrying about what America will turn into as a result of Trump's presidency, perhaps you should focus on how it is affecting you all </p>
+            </div> 
+          </div>
+          <div class="scop-content col-md-3 col-sm-6">
+            <div class="scop-inner">
+              <div class="icon-outer">
+                 <i class='fas fa-project-diagram'></i>
+              </div>
+              <p class="scop-contentHeader">web development</p>
+              <p class="scop-contentDesc">Instead of worrying about what America will turn into as a result of Trump's presidency, perhaps you should focus on how it is affecting you all </p>
+            </div> 
+          </div>
+           <div class="scop-content col-md-3 col-sm-6">
+            <div class="scop-inner">
+              <div class="icon-outer">
+                 <i class='far fa-file-code'></i>
+              </div>
+              <p class="scop-contentHeader">web development</p>
+              <p class="scop-contentDesc">Instead of worrying about what America will turn into as a result of Trump's presidency, perhaps you should focus on how it is affecting you all </p>
+            </div> 
+          </div>
         </div>
+      </div>  
+</div>
+
+
+<div class="background-container">
+  <div class="background-header">
+    <div class="back-icon">
+       <i class="fas fa-chalkboard-teacher"></i>
+       <p>education & experience</p>
     </div>
-</div>  <!-- end of image Slider   -->
- 
+  </div>
+  <div class="row background-row">
+          <div class="exeperience col-md-6">
+            <div class="row exep-row">
+                <div class="job-exep1 col-md-3 col-sm-3">
+                   <div class="job-date"><span>2013 - 2015 </span></div>
+                </div>
+                <div class="job-desc col-md-9 col-sm-9">
+                  <p>java developer</p>
+                  <p>Instead of worrying about what America will turn into as a result of Trump's presidency, perhaps you should focus on how it is affecting you all </p>
+                </div>
+            </div>
+            <div class="row exep-row">
+                <div class="job-exep1 col-md-3 col-sm-3">
+                   <div class="job-date"><span>2015 - 2018 </span></div>
+                </div>
+                <div class="job-desc col-md-9 col-sm-9">
+                  <p>web developer freelancer</p>
+                  <p>Instead of worrying about what America will turn into as a result of Trump's presidency, perhaps you should focus on how it is affecting you all </p>
+                </div>
+            </div>      
+            
+          </div>
+    <div class="education col-md-3 col-sm-6">
+       <div class="edu-inner">
+           <p class="edu-date">2006 - 2009</p>
+           <p class="course-name"><i class="fas fa-graduation-cap "></i><span>bsc.</span> computer science</p>
+           <p class="course-desc">Instead of worrying about what America will turn into as a result of Trump's presidency, perhaps you should perhaps you should perhaps you should perhaps you should</p>
+           <p class="inst-name">thamar university - yemen</p>
+       </div>
+    </div>
+    <div class="education col-md-3 col-sm-6">
+       <div class="edu-inner">
+           <p class="edu-date">2006 - 2009</p>
+           <p class="course-name"><i class="fas fa-graduation-cap "></i><span>m tech.</span> web technology</p>
+           <p class="course-desc">Instead of worrying about what America will turn into as a result of Trump's presidency, perhaps you should perhaps you should perhaps you should perhaps you should</p>
+           <p class="inst-name">JNTU university - india</p>
+       </div>
+    </div>
+  </div>
+</div>
 
 
+<div class=" circle-container container">
+    <div><p class="circle-header">web development</p></div>
+    <div class="circle-row row">
+        <div class="svCol col-md-3 col-sm-6 ">
+           <div class="circle-inner  ">  
+            <div class="sv">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+             </div> 
+             <p class="percentage">90%</p> 
+             <p class="skill">HTML / CSS</p>
+           </div>
+        </div> 
+        <div class="svCol col-md-3 col-sm-6 ">
+           <div class="circle-inner  ">  
+            <div class="sv">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+             </div> 
+             <p class="percentage">85%</p> 
+             <p class="skill">Javascript / JQuery</p>
+           </div>
+        </div> 
+                <div class="svCol col-md-3 col-sm-6 ">
+           <div class="circle-inner  ">  
+            <div class="sv">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+             </div> 
+             <p class="percentage">85%</p> 
+             <p class="skill">Angular / React</p>
+           </div>
+        </div> 
+
+                <div class="svCol col-md-3 col-sm-6 ">
+           <div class="circle-inner  ">  
+            <div class="sv">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+             </div> 
+             <p class="percentage">90%</p> 
+             <p class="skill">Wordpress</p>
+           </div>
+        </div> 
+
+    </div>
+</div>
+
+
+ <div class="skill-container container">
+     <div class="skill-header">
+     </div>
+     <div class="skill-row row">
+         <div class="skill-col1 col-md-4">
+            <div class="skill-inner">
+                  <div class="skill-box">
+                      <p class="skill-title">core java</p>
+                      <div class="progress progress-skill">
+                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                              aria-valuemin="0" aria-valuemax="100" style="width:70%"> 70%
+                         </div>
+                      </div>
+                  </div>
+                  <div class="skill-box">
+                      <p class="skill-title">servlets / JSP</p>
+                      <div class="progress progress-skill">
+                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                              aria-valuemin="0" aria-valuemax="100" style="width:70%"> 70%
+                         </div>
+                      </div>
+                  </div> 
+                  <div class="skill-box">
+                      <p class="skill-title">Spring framework</p>
+                      <div class="progress progress-skill">
+                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                              aria-valuemin="0" aria-valuemax="100" style="width:70%"> 70%
+                         </div>
+                      </div>
+                  </div> 
+                  <div class="skill-box">
+                      <p class="skill-title">hibernate framework</p>
+                      <div class="progress progress-skill">
+                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                              aria-valuemin="0" aria-valuemax="100" style="width:70%"> 70%
+                         </div>
+                      </div>
+                  </div> 
+                  <div class="skill-box">
+                      <p class="skill-title">J2EE design patterns</p>
+                      <div class="progress progress-skill">
+                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                              aria-valuemin="0" aria-valuemax="100" style="width:70%"> 70%
+                         </div>
+                      </div>
+                  </div>                                                                          
+            </div>  
+            <div class="skill-bootom">
+                <p>Java technolgy</p>
+            </div>      
+         </div>
+
+         <div class="middle-skillCol col-md-4">
+            <div class="row middile-row">
+                <div class="middil-innercol col-md-3">
+                   <div class="middskil-header">
+                      <p>image</p>
+                   </div>
+                </div>
+                <div class="middskil-desc col-md-9">
+                    <div class="skill-box">
+                        <p class="skill-title"><span>photoshop</span><span>70%</span></p>
+                        <div class="progressK-skill">
+                           <div class="progressK-bar">
+                           </div>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <p class="skill-title"><span>Illustrator</span><span>70%</span></p>
+                        <div class="progressK-skill">
+                           <div class="progressK-bar">
+                           </div>
+                        </div>
+                    </div> 
+                </div>                
+            </div>
+            <div class="row middile-row">
+                <div class="middil-innercol col-md-3">
+                   <div class="middskil-header">
+                      <p>video</p>
+                   </div>
+                </div>
+                <div class="middskil-desc col-md-9">
+                    <div class="skill-box">
+                        <p class="skill-title"><span>after effects</span><span>70%</span></p>
+                        <div class="progressK-skill">
+                           <div class="progressK-bar">
+                           </div>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <p class="skill-title"><span>premiere pro</span><span>70%</span></p>
+                        <div class="progressK-skill">
+                           <div class="progressK-bar">
+                           </div>
+                        </div>
+                    </div> 
+                </div>                
+            </div>    
+            <div class="skill-bootom">
+                <p>graphic skills</p>
+            </div>         
+         </div>
+
+         <div class="skill-col1 col-md-4">
+            <div class="skill-inner">
+                  <div class="skill-box">
+                      <p class="skill-title">SOAP webservice</p>
+                      <div class="progress progress-skill">
+                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                              aria-valuemin="0" aria-valuemax="100" style="width:70%"> 70%
+                         </div>
+                      </div>
+                  </div>
+                  <div class="skill-box">
+                      <p class="skill-title">RESTfull API</p>
+                      <div class="progress progress-skill">
+                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                              aria-valuemin="0" aria-valuemax="100" style="width:70%"> 70%
+                         </div>
+                      </div>
+                  </div> 
+                  <div class="skill-box">
+                      <p class="skill-title">CORBA</p>
+                      <div class="progress progress-skill">
+                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                              aria-valuemin="0" aria-valuemax="100" style="width:70%"> 70%
+                         </div>
+                      </div>
+                  </div> 
+                  <div class="skill-box">
+                      <p class="skill-title">JAVA RMI</p>
+                      <div class="progress progress-skill">
+                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                              aria-valuemin="0" aria-valuemax="100" style="width:70%"> 70%
+                         </div>
+                      </div>
+                  </div> 
+                  <div class="skill-box">
+                      <p class="skill-title">XML/JSON</p>
+                      <div class="progress progress-skill">
+                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                              aria-valuemin="0" aria-valuemax="100" style="width:70%"> 70%
+                         </div>
+                      </div>
+                  </div>                                                                          
+            </div>
+            <div class="skill-bootom">
+                <p>distributed technology</p>
+            </div>         
+         </div>         
+
+     </div>
+ </div><!--  skill-container -->
+
+ <div class="footer-container">
+    <div  class="footer-row row">
+      <div class="footer-col col-md-12">
+          <div class="footer-inner">
+              <p>© 2020 Ahmed Alsumairi. All rights reserved.</p>
+          </div>
+          
+      </div>
+    </div>
+   
+ </div>
+
+
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <script type="text/javascript" src="javascript/imagslider.js"></script>
+<script type="text/javascript" src="javascript/mainJS.js"></script>
+<script type="text/javascript" src="javascript/circlebar.js"></script>
+
  </body>
  </html>
